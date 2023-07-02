@@ -240,7 +240,7 @@ with gr.Blocks(
     repl = gr.State(None)
     files = []
     conversation = gr.State([])
-    gr.Markdown("# Welcome to DataDM!")
+    gr.Markdown("ThinkMachine DataGPT")
     with gr.Tabs() as tabs:
         with gr.Tab("Chat", id=0):
             with gr.Row():
